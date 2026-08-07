@@ -1,0 +1,28 @@
+[
+  {
+    "id": "book-001",
+    "title": "Book Title",
+    "author": "Author Name",
+    "status": "Reading",
+    "progress": "60%",
+    "notes": "What you're getting out of it so far, or why you picked it up. This appears when the entry is expanded.",
+    "cover": "assets/images/book1-cover.jpg"
+  },
+  {
+    "id": "book-002",
+    "title": "Another Book Title",
+    "author": "Author Name",
+    "status": "Read",
+    "rating": 5,
+    "notes": "A short reflection or takeaway from the book. Replace with your own notes.",
+    "cover": "assets/images/book2-cover.jpg"
+  },
+  {
+    "id": "book-003",
+    "title": "A Third Book",
+    "author": "Author Name",
+    "status": "Want to Read",
+    "notes": "Why it's on your list.",
+    "cover": ""
+  }
+]

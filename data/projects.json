@@ -1,0 +1,40 @@
+[
+  {
+    "id": "proj-001",
+    "title": "Project Name",
+    "status": "In Progress",
+    "period": "2025 — Present",
+    "tags": ["Python", "Machine Learning", "API"],
+    "summary": "One sentence describing the project — this shows on the card before it's expanded.",
+    "description": "Write the full description here. What problem does it solve? What did you build? What was your role? What technologies did you use and why? This full text appears when someone clicks the card to expand it.",
+    "highlights": [
+      "Key result or feature #1",
+      "Key result or feature #2",
+      "Key result or feature #3"
+    ],
+    "images": ["assets/images/project1-screenshot.png"],
+    "video": "",
+    "links": [
+      { "label": "Live Demo", "url": "https://example.com" },
+      { "label": "GitHub Repo", "url": "https://github.com/yourusername/project" }
+    ]
+  },
+  {
+    "id": "proj-002",
+    "title": "Another Project",
+    "status": "Completed",
+    "period": "2024",
+    "tags": ["React", "Design"],
+    "summary": "Short one-line summary of this project.",
+    "description": "Full write-up of the project goes here. Replace with your real project details.",
+    "highlights": [
+      "Result or feature #1",
+      "Result or feature #2"
+    ],
+    "images": [],
+    "video": "assets/videos/project2-demo.mp4",
+    "links": [
+      { "label": "GitHub Repo", "url": "https://github.com/yourusername/project2" }
+    ]
+  }
+]

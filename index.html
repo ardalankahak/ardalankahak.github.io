@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Portfolio</title>
+<meta name="description" content="Personal portfolio, resume, projects, publications, and reading list.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav" id="siteNav">
+  <div class="wrap">
+    <a href="#top" class="brand">portfolio.</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">menu</button>
+    <ul>
+      <li><a class="nav-link" href="#about">About</a></li>
+      <li><a class="nav-link" href="#resume">Resume</a></li>
+      <li><a class="nav-link" href="#projects">Projects</a></li>
+      <li><a class="nav-link" href="#papers">Papers</a></li>
+      <li><a class="nav-link" href="#books">Reading</a></li>
+      <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">Portfolio &amp; Resume</div>
+    <h1 id="heroName">Your Name</h1>
+    <p class="role" id="heroTitle">Your Job Title / Field</p>
+    <p class="tagline" id="heroTagline">One sentence describing what you do.</p>
+    <div class="hero-links" id="heroLinks">
+      <!-- populated by JS: resume button + social links -->
+    </div>
+  </div>
+</header>
+
+<section class="block" id="about">
+  <div class="wrap">
+    <div class="block-head"><h2>About</h2></div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p id="aboutText">About text loads here.</p>
+      </div>
+      <div class="about-side">
+        <ul class="skills-list" id="skillsList"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="resume">
+  <div class="wrap">
+    <div class="block-head"><h2>Experience</h2></div>
+    <div class="timeline" id="experienceTimeline"></div>
+    <div class="block-head" style="margin-top:48px;"><h2>Education</h2></div>
+    <div class="timeline" id="educationTimeline"></div>
+  </div>
+</section>
+
+<section class="block" id="projects">
+  <div class="wrap">
+    <div class="block-head">
+      <h2>Projects</h2>
+      <span class="count" id="projectCount"></span>
+    </div>
+    <p class="block-intro">Click any entry to expand full details, media, and links.</p>
+    <div class="catalog" id="projectsCatalog"></div>
+  </div>
+</section>
+
+<section class="block" id="papers">
+  <div class="wrap">
+    <div class="block-head">
+      <h2>Publications</h2>
+      <span class="count" id="paperCount"></span>
+    </div>
+    <p class="block-intro">Click any entry to read the abstract and full text.</p>
+    <div class="catalog" id="papersCatalog"></div>
+  </div>
+</section>
+
+<section class="block" id="books">
+  <div class="wrap">
+    <div class="block-head">
+      <h2>Reading</h2>
+      <span class="count" id="bookCount"></span>
+    </div>
+    <p class="block-intro">Books I'm reading, have read, and want to read.</p>
+    <div class="catalog" id="booksCatalog"></div>
+  </div>
+</section>
+
+<section class="block contact-block" id="contact">
+  <div class="wrap">
+    <div class="block-head"><h2>Contact</h2></div>
+    <p>Interested in working together, or just want to say hello? Reach out.</p>
+    <div class="links" id="contactLinks"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Built and maintained by me · updated regularly</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

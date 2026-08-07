@@ -1,0 +1,26 @@
+[
+  {
+    "id": "paper-001",
+    "title": "Title of Your Published Paper",
+    "venue": "Journal / Conference Name",
+    "year": "2025",
+    "authors": "Your Name, Coauthor Name",
+    "abstract": "Paste the paper's abstract here. This shows on the card before expanding.",
+    "fullText": "Paste the full text of your paper here, section by section (Introduction, Methods, Results, Discussion, Conclusion, References). This can be as long as you need — it will appear in a scrollable expanded view when someone clicks to read more. Use \\n\\n for paragraph breaks in the JSON string.",
+    "pdfFile": "assets/papers/paper1.pdf",
+    "links": [
+      { "label": "DOI / Publisher Page", "url": "https://doi.org/xxxx" }
+    ]
+  },
+  {
+    "id": "paper-002",
+    "title": "Title of a Working Paper / Preprint",
+    "venue": "In Progress / Under Review",
+    "year": "2026",
+    "authors": "Your Name",
+    "abstract": "Short abstract of the work in progress.",
+    "fullText": "Full draft text or a project description if the paper isn't finished yet.",
+    "pdfFile": "",
+    "links": []
+  }
+]
