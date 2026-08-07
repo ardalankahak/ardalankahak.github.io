@@ -1,10 +1,10 @@
 {
-  "name": "Your Name",
+  "name": "Ardalan Kahak",
   "photo": "assets/images/profile.jpg",
-  "title": "Your Job Title / Field (e.g. Data Scientist, ML Researcher)",
-  "tagline": "One sentence that says what you do and what you're looking for.",
-  "location": "City, State",
-  "email": "you@example.com",
+  "title": "R&D Engineer, Research Scientist, Mechanical Engineer.",
+  "tagline": "Working on programmable interfaces for applications in acoustics, physical reservoir computing, and wearable technologies. Seeking opportunities in advanced mechanical engineering, electromechanical systems, soft robotics, and wearable devices.",
+  "location": "Ashburn, Virginia",
+  "email": "ardalankahak@vt.edu",
   "links": [
     { "label": "LinkedIn", "url": "https://linkedin.com/in/yourprofile" },
     { "label": "GitHub", "url": "https://github.com/yourusername" },
