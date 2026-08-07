@@ -46,6 +46,18 @@ async function renderProfile() {
   document.getElementById("heroTagline").textContent = data.tagline;
   document.getElementById("aboutText").textContent = data.about;
 
+  // Hero photo (only shown if a photo path is set and loads successfully)
+  const heroPhoto = document.getElementById("heroPhoto");
+  if (data.photo) {
+    heroPhoto.src = data.photo;
+    heroPhoto.alt = data.name;
+    heroPhoto.addEventListener("load", () => { heroPhoto.style.display = "block"; });
+    heroPhoto.addEventListener("error", () => {
+      console.warn(`Profile photo not found at "${data.photo}". Check the filename/path in data/profile.json matches the file in assets/images/.`);
+      heroPhoto.style.display = "none";
+    });
+  }
+
   // Hero links: resume button + social links
   const heroLinks = document.getElementById("heroLinks");
   heroLinks.innerHTML = "";
