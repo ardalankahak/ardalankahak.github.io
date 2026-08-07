@@ -6,9 +6,9 @@
   "location": "Ashburn, Virginia",
   "email": "ardalankahak@vt.edu",
   "links": [
-    { "label": "LinkedIn", "url": "https://linkedin.com/in/yourprofile" },
-    { "label": "GitHub", "url": "https://github.com/yourusername" },
-    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=XXXX" }
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/ardalankahak" },
+    { "label": "GitHub", "url": "https://github.com/Ardalan-Kahak" },
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=9oKthG4AAAAJ&hl=en" }
   ],
   "about": "Write 2-4 sentences about yourself here: your background, what you're passionate about, and what kind of role you're looking for. This shows up on the About section of your site.",
   "resumeFile": "assets/resume.pdf",
