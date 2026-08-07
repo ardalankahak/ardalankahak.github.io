@@ -1,10 +1,10 @@
 {
   "name": "Your Name",
+  "photo": "assets/images/profile.jpg",
   "title": "Your Job Title / Field (e.g. Data Scientist, ML Researcher)",
   "tagline": "One sentence that says what you do and what you're looking for.",
   "location": "City, State",
   "email": "you@example.com",
-  "photo": "assets/images/profile.jpg",
   "links": [
     { "label": "LinkedIn", "url": "https://linkedin.com/in/yourprofile" },
     { "label": "GitHub", "url": "https://github.com/yourusername" },
