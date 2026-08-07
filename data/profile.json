@@ -4,6 +4,7 @@
   "tagline": "One sentence that says what you do and what you're looking for.",
   "location": "City, State",
   "email": "you@example.com",
+  "photo": "assets/images/profile.jpg",
   "links": [
     { "label": "LinkedIn", "url": "https://linkedin.com/in/yourprofile" },
     { "label": "GitHub", "url": "https://github.com/yourusername" },
