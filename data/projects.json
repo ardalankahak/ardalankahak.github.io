@@ -1,40 +1,51 @@
 [
   {
-    "id": "proj-001",
-    "title": "Project Name",
+    "id": "proj-kirigami",
+    "title": "Programmable Kirigami Interfaces (Ph.D. Thesis)",
     "status": "In Progress",
-    "period": "2025 — Present",
-    "tags": ["Python", "Machine Learning", "API"],
-    "summary": "One sentence describing the project — this shows on the card before it's expanded.",
-    "description": "Write the full description here. What problem does it solve? What did you build? What was your role? What technologies did you use and why? This full text appears when someone clicks the card to expand it.",
+    "period": "September 2023 — Present",
+    "tags": ["Soft Robotics", "Kirigami", "Sensor Integration", "Fabrication", "Piezoelectrics"],
+    "summary": "Soft, sensor-integrated electromechanical interfaces for acoustics, haptics, and physical reservoir computing.",
+    "description": "My Ph.D. thesis work centers on programmable Kirigami interfaces — soft mechanical structures with integrated sensors, fabricated using layer-by-layer and geometry-driven design principles. This work spans multiple applications: acoustic and haptic interfaces, soft robotics, and physical reservoir computing. Add more detail here about your specific fabrication process, the physics/mechanics behind the geometry-driven design, and what makes this approach novel compared to rigid robotic systems.",
     "highlights": [
-      "Key result or feature #1",
-      "Key result or feature #2",
-      "Key result or feature #3"
-    ],
-    "images": ["assets/images/project1-screenshot.png"],
-    "video": "",
-    "links": [
-      { "label": "Live Demo", "url": "https://example.com" },
-      { "label": "GitHub Repo", "url": "https://github.com/yourusername/project" }
-    ]
-  },
-  {
-    "id": "proj-002",
-    "title": "Another Project",
-    "status": "Completed",
-    "period": "2024",
-    "tags": ["React", "Design"],
-    "summary": "Short one-line summary of this project.",
-    "description": "Full write-up of the project goes here. Replace with your real project details.",
-    "highlights": [
-      "Result or feature #1",
-      "Result or feature #2"
+      "Fabricated prototypes and mechanical assemblies with integrated sensors using layer-by-layer fabrication and geometry-driven design",
+      "Designed, built, and validated a low-power underwater physical reservoir computing sensor combining embedded sensors, piezoelectric materials, and DAQ systems",
+      "Developed an inflatable compliant Kirigami interface with embedded sensors for closed-loop feedback control of exoskeleton comfort"
     ],
     "images": [],
-    "video": "assets/videos/project2-demo.mp4",
-    "links": [
-      { "label": "GitHub Repo", "url": "https://github.com/yourusername/project2" }
-    ]
+    "video": "",
+    "links": []
+  },
+  {
+    "id": "proj-microswimmer",
+    "title": "Reinforcement Learning of a Planar Micro-swimmer",
+    "status": "Completed",
+    "period": "September 2021 — July 2022",
+    "tags": ["Reinforcement Learning", "Python", "Microfluidics", "Bachelor's Thesis"],
+    "summary": "RL framework for a triangular micro-swimmer navigating viscous microscale fluid environments.",
+    "description": "For my Bachelor's thesis, I developed and trained a reinforcement learning framework in Python to control a triangular micro-swimmer model operating in viscous, low-Reynolds-number fluid environments — with an eye toward future biomedical navigation applications, like microrobots navigating the body. Add more detail here: which RL algorithm you used, the swimmer's physical model, training setup, and results/performance.",
+    "highlights": [
+      "Built a custom RL training environment simulating low-Reynolds-number swimmer dynamics",
+      "Explored applications in biomedical micro-navigation"
+    ],
+    "images": [],
+    "video": "",
+    "links": []
+  },
+  {
+    "id": "proj-machine-elements",
+    "title": "Machine Element Design Projects",
+    "status": "Completed",
+    "period": "Undergraduate coursework",
+    "tags": ["Mechanical Design", "SOLIDWORKS", "Design for Manufacturing"],
+    "summary": "Seven mechanical design projects applying core machine design principles to real-world systems.",
+    "description": "A series of seven mechanical design projects covering real-world engineering applications, including the design of a heavy-duty dump truck rear differential and gearbox/motor selection for a mine elevator. Add more detail here on your design methodology, calculations, and any standout results from these projects.",
+    "highlights": [
+      "Designed a heavy-duty dump truck rear differential",
+      "Performed gearbox and motor selection for a mine elevator system"
+    ],
+    "images": [],
+    "video": "",
+    "links": []
   }
 ]

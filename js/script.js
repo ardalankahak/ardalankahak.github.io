@@ -91,7 +91,9 @@ async function renderProfile() {
     expTimeline.appendChild(el("div", { class: "timeline-item" }, [
       el("span", { class: "period", text: job.period }),
       el("h3", { text: job.role }),
-      el("p", { class: "org", text: job.org }),
+      job.orgUrl
+        ? el("p", { class: "org" }, [el("a", { text: job.org, attrs: { href: job.orgUrl, target: "_blank", rel: "noopener" } })])
+        : el("p", { class: "org", text: job.org }),
       el("p", { text: job.summary }),
       bullets
     ]));

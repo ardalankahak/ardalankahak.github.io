@@ -2,49 +2,94 @@
   "name": "Ardalan Kahak",
   "photo": "assets/images/profile.jpg",
   "title": "R&D Engineer, Research Scientist, Mechanical Engineer.",
-  "tagline": "Working on programmable interfaces for applications in acoustics, physical reservoir computing, and wearable technologies. Seeking opportunities in advanced mechanical engineering, electromechanical systems, soft robotics, and wearable devices.",
+  "tagline": "I design, fabricate, and validate electromechanical prototypes — soft robotics, wearable sensors, and programmable interfaces — from concept through working prototype.",
   "location": "Ashburn, Virginia",
   "email": "ardalankahak@vt.edu",
   "links": [
     { "label": "LinkedIn", "url": "https://linkedin.com/in/ardalankahak" },
-    { "label": "GitHub", "url": "https://github.com/Ardalan-Kahak" },
-    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=9oKthG4AAAAJ&hl=en" }
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=9oKthG4AAAAJ&hl=en" },
+    { "label": "DARE Lab GitHub", "url": "https://github.com/DARE-Lab-VT/OpenPRC-dev" }
   ],
   "about": "Mechanical Engineering Ph.D. candidate at Virginia Tech specializing in electromechanical system design, soft robotics, and prototype development. My work spans programmable acoustic holograms, inflatable Kirigami interfaces, soft piezoelectric  reservoir-computing patches, and haptic interfaces, with hands-on experience in embedded electronics, sensor integration, fabrication, and control systems. I also bring industry experience in large-scale automation and manufacturing. I am seeking advanced R&D, soft robotics, or wearable electronics roles where cross-disciplinary engineering and hands-on fabrication can drive innovative product development.",
   "resumeFile": "assets/resume.pdf",
   "experience": [
     
     {
-      "role": "Graduate Research Assistant",
-      "org": "Virginia Tech, <a href='https://dare.super.site'>DARE lab</a>."
-      "period": "2022 — PRESENT",
-      "summary": "Advancing 2D design and geometry-driven principles, such as Kirigami, to develop integrated sensors and mechanical computing systems.",
+      "role": "Ph.D. Researcher — Programmable Kirigami Interfaces",
+      "org": "Virginia Tech, DARE Lab",
+      "orgUrl": "https://dare.super.site",
+      "period": "September 2023 — Present",
+      "summary": "Fabricating and validating soft electromechanical prototypes with integrated sensors for acoustics, haptics, soft robotics, and physical reservoir computing.",
       "bullets": [
-        "High-Precision Fluidic Acoustic Hologram",
-        "MRI-Compatible Tactile Stimulator",
-        "Underwater Low-Power Physical Reservoir Computing"
+        "Fabricated prototypes and mechanical assemblies with integrated sensors using layer-by-layer fabrication and geometry-driven design principles",
+        "Designed, built, and validated a low-power underwater physical reservoir computing sensor combining embedded sensors, piezoelectric materials, and DAQ systems with mechanical design optimization",
+        "Developed an inflatable compliant Kirigami interface with embedded sensors for closed-loop feedback control of exoskeleton comfort, using a single pneumatic input for actuation and force regulation"
       ]
     },
     
     {
-      "role": "Manufacturing Engineer",
+      "role": "Manufacturing Engineer / Intern",
       "org": "Durali System Design and Automation (DSDA)",
-      "period": "2020 — 2022",
-      "summary": "Contributed to the design, fabrication, installation, and troubleshooting of stage machinery projects as a member of the manufacturing team. Gained hands-on experience coordinating with external vendors, preparing BOMs, supporting prototype manufacturing, and collaborating within a team.",
+      "orgUrl": "https://www.dsdaco.com/en/",
+      "period": "July 2020 — September 2022",
+      "summary": "Led design, manufacturing, and installation of large-scale automation and safety systems.",
       "bullets": [
-        "Concrete accomplishment or responsibility #1",
-        "Concrete accomplishment or responsibility #2"
+        "Led design, manufacturing, and installation of large-scale theater stage automation and safety systems",
+        "Designed the conceptual architecture of a high-speed automated mask manufacturing line to address surging demand for 3-ply masks during the COVID-19 pandemic",
+        "Executed CAD modeling, prototype fabrication, system assembly, and manufacturing documentation (BOMs) for a compression-chain lifting mechanism",
+        "Coordinated with external vendors and led post-installation troubleshooting to improve system performance and reliability"
+      ]
+    },
+    {
+      "role": "Founder",
+      "org": "Poultry Breeding Project",
+      "period": "July 2019 — September 2019",
+      "summary": "Founded and managed a small-scale poultry breeding operation with automated environmental controls.",
+      "bullets": [
+        "Incorporated automated temperature and humidity control systems",
+        "Optimized feeding logistics and experimental environmental monitoring"
+      ]
+    },
+    {
+      "role": "Teaching Assistant, Strength of Materials",
+      "org": "Sharif University of Technology, Dept. of Mechanical Engineering",
+      "period": "February 2021 — March 2022",
+      "summary": "Teaching assistant for undergraduate Strength of Materials coursework.",
+      "bullets": []
+    },
+    {
+      "role": "Technical and Vocational Instructor",
+      "org": "Allamah Helli 5, National Organization for Development of Exceptional Talents",
+      "period": "January 2018 — September 2021",
+      "summary": "Designed and supervised hands-on engineering projects for high school students.",
+      "bullets": [
+        "Designed and supervised hands-on engineering projects including robotic grippers and water rocket launcher systems",
+        "Organized and managed a mathematics and puzzle-based competition with weekly evaluations, team scoring, and final tournament coordination"
       ]
     }
     
   ],
+
   "education": [
     {
-      "degree": "Degree, Major",
-      "school": "University Name",
-      "period": "2017 — 2021",
-      "notes": "Relevant coursework, honors, or thesis title."
+      "degree": "Ph.D. in Mechanical Engineering",
+      "school": "Virginia Tech",
+      "period": "December 2022 — Present",
+      "notes": "Blacksburg, VA, USA"
+    },
+    {
+      "degree": "B.S. in Mechanical Engineering",
+      "school": "Sharif University of Technology",
+      "period": "September 2017 — July 2022",
+      "notes": "Tehran, Tehran, Iran"
     }
   ],
-  "skills": ["Skill One", "Skill Two", "Skill Three", "Skill Four", "Skill Five"]
+  "skills": [
+    "Soft Material Fabrication", "Silicone Rubber Casting", "Laser Cutting", "Embedded Electronics Prototyping",
+    "Flexible Electronics", "PCB Design", "Feedback & Motion Control", "PID Control",
+    "SOLIDWORKS", "COMSOL", "Abaqus", "Design for Manufacturing (DFM)",
+    "Data Acquisition (DAQ)", "Sensors & Signal Conditioning",
+    "MATLAB", "Python", "C", "C++", "Arduino",
+    "FDM/SLA/DMP Printing", "Oscilloscopes", "Function Generators"
+  ]
 }

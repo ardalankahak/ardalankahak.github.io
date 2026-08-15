@@ -284,7 +284,7 @@ section.block:last-of-type { border-bottom: none; }
 .record-tags { display: none; }
 .record-status {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--accent);
@@ -294,6 +294,7 @@ section.block:last-of-type { border-bottom: none; }
   width: 24px; height: 24px;
   display: flex; align-items: center; justify-content: center;
   transition: transform 0.2s ease;
+  font-size: 25px;
   color: var(--ink-faint);
 }
 .record[data-open="true"] .record-caret { transform: rotate(45deg); color: var(--accent); }
