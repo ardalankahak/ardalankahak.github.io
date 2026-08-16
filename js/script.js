@@ -156,15 +156,19 @@ function makeRecord(index, title, sub, status, bodyContent) {
   return record;
 }
 
-function mediaRow(images = [], video = "") {
+function mediaRow(images = [], videos = []) {
   const items = [];
-  images.forEach(src => {
+  // Defensive: tolerate a stray string or missing value instead of crashing
+  const imgList = Array.isArray(images) ? images : (images ? [images] : []);
+  const vidList = Array.isArray(videos) ? videos : (videos ? [videos] : []);
+
+  imgList.forEach(src => {
     items.push(el("img", { attrs: { src, alt: "", loading: "lazy" } }));
   });
-  if (video) {
-    const v = el("video", { attrs: { src: video, controls: "true", preload: "metadata" } });
+  vidList.forEach(src => {
+    const v = el("video", { class: "video-player", attrs: { src, controls: "true", preload: "metadata" } });
     items.push(v);
-  }
+  });
   if (!items.length) return null;
   return el("div", { class: "media-row" }, items);
 }
@@ -194,7 +198,7 @@ async function renderProjects() {
     if (p.highlights?.length) {
       body.push(el("ul", { class: "highlight-list" }, p.highlights.map(h => el("li", { text: h }))));
     }
-    const media = mediaRow(p.images, p.video);
+    const media = mediaRow(p.images, p.videos);
     if (media) body.push(media);
     if (p.links?.length) {
       body.push(el("div", { class: "link-row" }, p.links.map(l =>

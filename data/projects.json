@@ -13,7 +13,7 @@
       "Developed an inflatable compliant Kirigami interface with embedded sensors for closed-loop feedback control of exoskeleton comfort"
     ],
     "images": [],
-    "video": "",
+    "videos": ["assets/videos/Haptic_bottom.mp4", "assets/videos/Kirigami_inflation.mp4"],
     "links": []
   },
   {
@@ -29,7 +29,7 @@
       "Explored applications in biomedical micro-navigation"
     ],
     "images": [],
-    "video": "",
+    "videos": [],
     "links": []
   },
   {
@@ -45,7 +45,7 @@
       "Performed gearbox and motor selection for a mine elevator system"
     ],
     "images": [],
-    "video": "",
+    "videos": [],
     "links": []
   }
 ]

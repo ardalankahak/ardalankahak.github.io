@@ -1,26 +1,33 @@
 [
   {
     "id": "paper-001",
-    "title": "Title of Your Published Paper",
-    "venue": "Journal / Conference Name",
+    "title": "High-precision fluidic Kirigami morphing surface for ultrasonic holographic lensing and haptic interfacing",
+    "venue": "Extreme Mechanics Letters",
     "year": "2025",
-    "authors": "Your Name, Coauthor Name",
-    "abstract": "Paste the paper's abstract here. This shows on the card before expanding.",
-    "fullText": "Paste the full text of your paper here, section by section (Introduction, Methods, Results, Discussion, Conclusion, References). This can be as long as you need — it will appear in a scrollable expanded view when someone clicks to read more. Use \\n\\n for paragraph breaks in the JSON string.",
-    "pdfFile": "assets/papers/paper1.pdf",
+    "authors": "Ardalan Kahak, Moustafa Sayed Ahmed, Nahid Kalantaryardebily, Hrishikesh Kulkarni , Netta Gurari, Shima Shahab, Suyi Li",
+    "abstract":[ 
+      "This study presents a systematic approach to designing Kirigami for tuning the local deformation and force output through extensive nonlinear modeling and experiment validation on two archetypal patterns: concentric square and circular cuts. The potentials of this approach are demonstrated via two multiphysics case studies: (1) an acoustic holography lens for ultrasonic wave steering, achieving highly accurate deformation control under a single global pressure input, and (2) a haptic device with a small volume, constant contact area, and high-resolution output force. The fluidic Kirigami concept allows for simple yet effective adaptation to different shape and stiffness requirements, paving the way for a new family of scalable and programmable morphing surfaces." ],
+    "pdfFile": "assets/papers/High-precision fluidic Kirigami morphing surface.pdf",
     "links": [
-      { "label": "DOI / Publisher Page", "url": "https://doi.org/xxxx" }
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.eml.2025.102424"
+      }
     ]
   },
   {
     "id": "paper-002",
-    "title": "Title of a Working Paper / Preprint",
-    "venue": "In Progress / Under Review",
+    "title": "Embodying physical computing into soft robots",
+    "venue": "Nature Communications",
     "year": "2026",
-    "authors": "Your Name",
-    "abstract": "Short abstract of the work in progress.",
-    "fullText": "Full draft text or a project description if the paper isn't finished yet.",
-    "pdfFile": "",
-    "links": []
+    "authors": "Jun Wang, Ziyang Zhou, Ardalan Kahak, Suyi Li",
+    "abstract": "This perspective paper proposes a framework for embodying physical computing into soft robots and discusses three unique strategies in the literature: analog oscillators, physical reservoir computing, and physical algorithmic computing. These embodied computers enable the soft robot to perform complex behaviors that would otherwise require CMOS-based electronics— including coordinated locomotion with obstacle avoidance, payload weight and orientation classi cation, and programmable operation based on logical rules. This paper will detail the working principles of these embodied physical computing methods, survey the current state-of-the-art, and present a perspective for future development.",
+    "pdfFile": "assets/papers/Embodying physical computing into soft robots.pdf",
+     "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.eml.2025.102424"
+      }
+    ]
   }
 ]
