@@ -10,7 +10,7 @@
     "highlights": [
       "Fabricated prototypes and mechanical assemblies with integrated sensors using layer-by-layer fabrication and geometry-driven design",
       "Designed, built, and validated a low-power underwater physical reservoir computing sensor combining embedded sensors, piezoelectric materials, and DAQ systems",
-      "Developed an inflatable compliant Kirigami interface with embedded sensors for closed-loop feedback control of exoskeleton comfort"
+      "Developed an inflatable compliant Kirigami interface for closed-loop feedback control of exoskeleton comfort"
     ],
     "images": [],
     "videos": ["assets/videos/Haptic_bottom.mp4", "assets/videos/Kirigami_inflation.mp4"],

@@ -1,6 +1,6 @@
 {
   "name": "Ardalan Kahak",
-  "photo": "assets/images/profile.jpg",
+  "photo": "assets/images/profile.jpeg",
   "title": "R&D Engineer, Research Scientist, Mechanical Engineer.",
   "tagline": "I design, fabricate, and validate electromechanical prototypes — soft robotics, wearable sensors, and programmable interfaces — from concept through working prototype.",
   "location": "Ashburn, Virginia",
@@ -10,7 +10,7 @@
     { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=9oKthG4AAAAJ&hl=en" },
     { "label": "DARE Lab GitHub", "url": "https://github.com/DARE-Lab-VT/OpenPRC-dev" }
   ],
-  "about": "Mechanical Engineering Ph.D. candidate at Virginia Tech specializing in electromechanical system design, soft robotics, and prototype development. My work spans programmable acoustic holograms, inflatable Kirigami interfaces, soft piezoelectric  reservoir-computing patches, and haptic interfaces, with hands-on experience in embedded electronics, sensor integration, fabrication, and control systems. I also bring industry experience in large-scale automation and manufacturing. I am seeking advanced R&D, soft robotics, or wearable electronics roles where cross-disciplinary engineering and hands-on fabrication can drive innovative product development.",
+  "about": "Mechanical Engineering Ph.D. student at Virginia Tech specializing in electromechanical system design, soft robotics, and prototype development. My work spans programmable acoustic holograms, inflatable Kirigami interfaces, soft piezoelectric  reservoir-computing patches, and haptic interfaces, with hands-on experience in embedded electronics, sensor integration, fabrication, and control systems. I also bring industry experience in large-scale automation and manufacturing. I am seeking advanced R&D, soft robotics, or wearable electronics roles where cross-disciplinary engineering and hands-on fabrication can drive innovative product development.",
   "resumeFile": "assets/resume.pdf",
   "experience": [
     
@@ -22,8 +22,8 @@
       "summary": "Fabricating and validating soft electromechanical prototypes with integrated sensors for acoustics, haptics, soft robotics, and physical reservoir computing.",
       "bullets": [
         "Fabricated prototypes and mechanical assemblies with integrated sensors using layer-by-layer fabrication and geometry-driven design principles",
-        "Designed, built, and validated a low-power underwater physical reservoir computing sensor combining embedded sensors, piezoelectric materials, and DAQ systems with mechanical design optimization",
-        "Developed an inflatable compliant Kirigami interface with embedded sensors for closed-loop feedback control of exoskeleton comfort, using a single pneumatic input for actuation and force regulation"
+        "Designed, built, and validated energy-harvesting underwater physical reservoir computing prototype combining piezoelectric and soft materials with mechanical design optimization",
+        "Developed an inflatable compliant Kirigami interface for closed-loop feedback control of exoskeleton comfort, using a single pneumatic input for actuation and force regulation"
       ]
     },
     
@@ -85,11 +85,11 @@
     }
   ],
   "skills": [
-    "Soft Material Fabrication", "Silicone Rubber Casting", "Laser Cutting", "Embedded Electronics Prototyping",
-    "Flexible Electronics", "PCB Design", "Feedback & Motion Control", "PID Control",
+    "Soft Material Fabrication", "Laser Cutting", "Embedded Electronics", "Arduino", "Data Acquisition (DAQ)",
+    "Flexible Electronics", "PCB Design", "PID Control",
     "SOLIDWORKS", "COMSOL", "Abaqus", "Design for Manufacturing (DFM)",
-    "Data Acquisition (DAQ)", "Sensors & Signal Conditioning",
-    "MATLAB", "Python", "C", "C++", "Arduino",
-    "FDM/SLA/DMP Printing", "Oscilloscopes", "Function Generators"
+     "Sensors & Signal Processing",
+    "MATLAB", "Python", "C", "C++", 
+    "FDM/SLA/DMP Printing"
   ]
 }

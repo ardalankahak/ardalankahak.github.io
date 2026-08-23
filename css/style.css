@@ -124,12 +124,12 @@ img, video { max-width: 100%; display: block; border-radius: var(--radius); }
 .hero-text { flex: 1; min-width: 0; }
 
 .hero-photo {
-  width: 168px;          /* change size — try 200px, 140px, etc. */
-  height: 168px;          /* keep equal to width for a perfect circle */
+  width: 300px;          /* change size — try 200px, 140px, etc. */
+  height: 300px;          /* keep equal to width for a perfect circle */
   object-fit: cover;
   border-radius: 50%;     /* 50% = circle, 12px = rounded square, 0 = square */
-  border: 3px solid var(--surface);
-  outline: 1px solid var(--line-strong);
+  border: 2px solid var(--surface);
+  outline: 2px solid var(--line-strong);
   flex-shrink: 0;
   transform: rotate(0deg); /* e.g. rotate(-4deg) for a slight tilted-photo effect */
 }

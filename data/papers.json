@@ -21,7 +21,7 @@
     "venue": "Nature Communications",
     "year": "2026",
     "authors": "Jun Wang, Ziyang Zhou, Ardalan Kahak, Suyi Li",
-    "abstract": "This perspective paper proposes a framework for embodying physical computing into soft robots and discusses three unique strategies in the literature: analog oscillators, physical reservoir computing, and physical algorithmic computing. These embodied computers enable the soft robot to perform complex behaviors that would otherwise require CMOS-based electronics— including coordinated locomotion with obstacle avoidance, payload weight and orientation classi cation, and programmable operation based on logical rules. This paper will detail the working principles of these embodied physical computing methods, survey the current state-of-the-art, and present a perspective for future development.",
+    "abstract": "This perspective paper proposes a framework for embodying physical computing into soft robots and discusses three unique strategies in the literature: analog oscillators, physical reservoir computing, and physical algorithmic computing. These embodied computers enable the soft robot to perform complex behaviors that would otherwise require CMOS-based electronics— including coordinated locomotion with obstacle avoidance, payload weight and orientation classification, and programmable operation based on logical rules. This paper will detail the working principles of these embodied physical computing methods, survey the current state-of-the-art, and present a perspective for future development.",
     "pdfFile": "assets/papers/Embodying physical computing into soft robots.pdf",
      "links": [
       {
